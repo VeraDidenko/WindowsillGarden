@@ -1,0 +1,292 @@
+@import "garden/garden-card";
+@Color: #01bdec;
+@RightPanelWidth: 320px;
+@TopPanelHeight: 85px;
+body, html {
+  height: 100%;
+}
+.succulent{
+  margin-top: 5px;
+  max-width:50px;
+  max-height:50px;
+}
+.succulent-garden{
+  margin-top: @TopPanelHeight;
+  background-image: url('home-page.png');
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.succulent-garden-create{
+  margin-top: @TopPanelHeight;
+  background-image: url('s.jpg');
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.flower-garden-create{
+  margin-top: @TopPanelHeight;
+  background-image: url('flowers_bag_flower_89155_1920x1080.jpg');
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.Herb-garden-create{
+  margin-top: @TopPanelHeight;
+  background-image: url('1429570036-herb-garden.jpg');
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.test-flower-background{
+  margin-top: @TopPanelHeight;
+  background-image: url('5175_1280x800.jpg');
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.welcome-message{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 100%;
+  min-width: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.title{
+  font-weight: 200;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.my-garden{
+  margin-top: @TopPanelHeight;
+  min-width:@RightPanelWidth;
+}
+.garden-container{
+  max-width: 1000px;
+  min-width:@RightPanelWidth;
+  margin: auto;
+  box-sizing: border-box;
+  padding:1px 30px 10px 30px;
+}
+.video-card{
+  position:relative;
+  border: 0;
+  //max-width: 450px;
+  //width: 450px;
+  max-height: 450px;
+}
+.video-card:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.test-card{
+  position:relative;
+  background-color: rgba(0, 0, 0, 0.78);
+  border: 0;
+  max-width: 450px;
+  max-height: 450px;
+}
+.top-panel{
+  height: @TopPanelHeight;
+  width:100%;
+  position:fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 4000;
+}
+.top-part-of-top-panel{
+  width:100%;
+  height: @TopPanelHeight/2;
+  padding:0 0 0 25px;
+}
+.bottom-part-of-top-panel{
+  padding: 0 0 0 5px;
+}
+.tutorials-menu{
+  margin:20px;
+  width: 100%;
+}
+.all-tutorials-title{
+  text-align: center;
+}
+.all-title{
+  display: inline-block;
+  text-align: center;
+}
+.type-of-tutorial{
+  box-sizing: border-box;
+  padding-bottom:5px;
+  text-align: center;
+}
+.tutorials{
+  display:inline-block;
+}
+.explanation-message{
+  width:100%;
+  box-sizing: border-box;
+  text-align: center;
+  padding:40px;
+  border-top:1px solid #e1e1e2;
+  color: #888889;
+}
+.link-home{
+  font-size: 17px;
+  color:white;
+  padding:8px 15px 8px 0;
+}
+.link-home:hover{
+  font-size: 17px;
+  color:white;
+  padding:8px 15px 8px 0;
+}
+.icons{
+  padding-bottom:5px;
+}
+.remove-button{
+  position: absolute;
+  top:0;
+  right:0;
+  border-radius: 20px;
+  color:white;
+  width:31px;
+  padding-left:9px;
+  padding-top:6px;
+  margin-right: 5px;
+}
+.remove-button:hover{
+  color: #ff0b00;
+}
+.name{
+  font-size: 20px;
+  font-weight: bold;
+  color: @Color;
+  text-align: center;
+}
+.nametest{
+  font-size: 20px;
+  font-weight: bold;
+  color: @Color;
+}
+.ex{
+  text-align: center;
+}
+
+.message{
+  color: #ffffff;
+  padding-top: 50px;
+  font-size: 16px;
+  text-align: center;
+}
+.watch{
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+  height: 50px;
+  background: linear-gradient(@Color, #125adc);
+  border: 0;
+  color: white;
+  font-size: 20px;
+}
+.watch:hover{
+  background: linear-gradient(#0a82ff, #081bdc);
+}
+.title-windowsill{
+  padding: 20px;
+  text-align: center;
+}
+.title-flower{
+  text-align: center;
+}
+.about{
+  padding:0 20px 20px 20px;
+}
+input{
+  vertical-align: top;
+}
+form{
+  border-bottom:1px solid #e1e1e2;
+}
+.workshop{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.31), 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+}
+.links{
+  position: fixed;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.31), 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+  color: white;
+  top: 20%;
+  left: 40%;
+  min-width: 200px;
+  background-color: rgba(0, 0, 0, 0.78);
+}
+.theField{
+  //background-image: url('windowsill.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  overflow-y: scroll;
+  overflow-x: visible;
+  position: relative;
+}
+.items{
+  position: relative;
+}
+.refresh-button{
+  position: absolute;
+  top:0;
+  right:0;
+  color:white;
+  width:31px;
+  padding-left:9px;
+  padding-top:6px;
+  margin-right: 5px;
+}
+.refresh-button:hover{
+  color: #ff0b00;
+}
+.itemdrag{
+  height:100px;
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.field{
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.78);
+  overflow-y: scroll;
+}
+.generator{
+  height: 100px;
+  width: 100px;
+}
+.tutorial{
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.shop{
+  text-align: center;
+  color: @Color;
+  font-weight: bold;
+  font-size: 30px;
+}

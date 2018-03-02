@@ -1,0 +1,209 @@
+<% include common/header.ejs %>
+<body>
+<div class="test-flower-background">
+    <div class="welcome-message">
+        <div class="title">Find your Flower</div>
+    </div>
+</div>
+<div>
+    <div class="my-garden">
+        <div class="description">
+            <h1 class="title-windowsill">Find Out Which Flower Best Fits Your Personality</h1>
+            <p class="about">
+                Have you ever dreamed of having a garden of your own, but didn't have the place for one, live in the city, or don't have
+                strength or health for gardening work? Well, you can have it on your windowsill! It doesn't have to be big, you can make
+                it as big as you want (or as big as your windowsill will allow it).
+            </p>
+        </div>
+        <div class="row garden-container" >
+            <p class="nametest"><b>Question 1: You are happiest when...</b></p>
+            <form id="first" action="">
+                <label for="creative">&nbsp You are creating things</label>
+                <input id="creative" type="radio" name="q1" value="10"><br>
+                <label for="belonging">&nbsp You are with your best friend</label>
+                <input id="belonging" type="radio" name="q1" value="3"><br>
+                <label for="leader">&nbsp You are in charge of a project</label>
+                <input id="leader" type="radio" name="q1" value="0"><br>
+                <label for="positive">&nbsp You think positively</label>
+                <input id="positive" type="radio" name="q1" value="2"><br>
+                <label for="mischievous">&nbsp You are breaking the rules</label>
+                <input id="mischievous" type="radio" name="q1" value="10"><br>
+                <label for="perfection">&nbsp You are the best at something</label>
+                <input id="perfection" type="radio" name="q1" value="1"><br>
+                <label for="needed">&nbsp Your friend confides in you or asks for help</label>
+                <input id="needed" type="radio" name="q1" value="5"><br>
+                <label for="romantic">&nbsp You think about your future love</label>
+                <input id="romantic" type="radio" name="q1" value="10">
+            </form>
+            <p class="nametest"><b>Question 2: How would you describe your present self?</b></p>
+            <form id="second" action="">
+                <label for="creative2">&nbsp Deep, curious, and creative</label>
+                <input id="creative2" type="radio" name="q2" value="5"><br>
+                <label for="mischievous2">&nbsp Fun, crazy, and naughty</label>
+                <input id="mischievous2" type="radio" name="q2" value="5"><br>
+                <label for="positive2">&nbsp Happy, sensible, and never quitting</label>
+                <input id="positive2" type="radio" name="q2" value="1"><br>
+                <label for="sensitive">&nbsp Uncertain, emotional, and weak</label>
+                <input id="sensitive" type="radio" name="q2" value="5"><br>
+                <label for="empty">&nbsp Unfulfilled, lost, and lonely</label>
+                <input id="empty" type="radio" name="q2" value="10"><br>
+                <label for="honest">&nbsp Honest, serious, and unexciting</label>
+                <input id="honest" type="radio" name="q2" value="0"><br>
+                <label for="hardworking">&nbsp Bored, over-achieving, and under-appreciated</label>
+                <input id="hardworking" type="radio" name="q2" value="2"><br>
+                <label for="independent">&nbsp Strong, dominant, and friendly</label>
+                <input id="independent" type="radio" name="q2" value="0"><br>
+            </form>
+            <p class="nametest"><b>Question 3: What do you want from life?</b></p>
+            <form id="third" action="">
+                <label for="ambitious">&nbsp Money and success</label>
+                <input id="ambitious" type="radio" name="q3" value="4"><br>
+                <label for="needed2">&nbsp Lots of friends</label>
+                <input id="needed2" type="radio" name="q3" value="5"><br>
+                <label for="perfection2">&nbsp To become perfect</label>
+                <input id="perfection2" type="radio" name="q3" value="6"><br>
+                <label for="mischievous3">&nbsp Fun and excitement</label>
+                <input id="mischievous3" type="radio" name="q3" value="5"><br>
+                <label for="creative3">&nbsp To express myself</label>
+                <input id="creative3" type="radio" name="q3" value="10"><br>
+                <label for="romantic2">&nbsp True love</label>
+                <input id="romantic2" type="radio" name="q3" value="10"><br>
+                <label for="positive3">&nbsp To appreciate the beautiful things</label>
+                <input id="positive3" type="radio" name="q3" value="0">
+            </form>
+            <p class="nametest"><b>Question 4: What is your worst failing?</b></p>
+            <form id="fourth" action="">
+                <label for="ambitious2">&nbsp I'm too competetive</label>
+                <input id="ambitious2" type="radio" name="q4" value="0"><br>
+                <label for="leader2">&nbsp I can be really bossy</label>
+                <input id="leader2" type="radio" name="q4" value="1"><br>
+                <label for="empty2">&nbsp I spend too much time wallowing in my own misfortunes</label>
+                <input id="empty2" type="radio" name="q4" value="2"><br>
+                <label for="unsure">&nbsp I'm not strong enough to help those I love</label>
+                <input id="unsure" type="radio" name="q4" value="3"><br>
+                <label for="positive4">&nbsp I don't show people my true worries and fears</label>
+                <input id="positive4" type="radio" name="q4" value="4"><br>
+                <label for="needed3">&nbsp I need to be liked by everyone</label>
+                <input id="needed3" type="radio" name="q4" value="5"><br>
+                <label for="independent2">&nbsp I don't relate well to other people</label>
+                <input id="independent2" type="radio" name="q4" value="6"><br>
+                <label for="mischievous4">&nbsp I get into trouble too much</label>
+                <input id="mischievous4" type="radio" name="q4" value="7"><br>
+            </form>
+            <p class="nametest"><b>Question 5: How would you best describe yourself?</b></p>
+            <form id="fifth" action="">
+                <label for="independent3">&nbsp Confident</label>
+                <input id="independent3" type="radio" name="q5" value="5"><br>
+                <label for="ambitious3">&nbsp Ambitiotious</label>
+                <input id="ambitious3" type="radio" name="q5" value="2"><br>
+                <label for="gentle">&nbsp Gentle</label>
+                <input id="gentle" type="radio" name="q5" value="1"><br>
+                <label for="hardworking2">&nbsp Passionate</label>
+                <input id="hardworking2" type="radio" name="q5" value="2"><br>
+                <label for="friendly">&nbsp Friendly</label>
+                <input id="friendly" type="radio" name="q5" value="5"><br>
+                <label for="positive5">&nbsp Optimistic</label>
+                <input id="positive5" type="radio" name="q5" value="2"><br>
+                <label for="mischievous5">&nbsp Humourous</label>
+                <input id="mischievous5" type="radio" name="q5" value="2"><br>
+                <label for="creative4">&nbsp Imaginative</label>
+                <input id="creative4" type="radio" name="q5" value="5"><br>
+                <input type="submit" class="watch" value="Submit">
+            </form>
+        </div>
+
+            <div class="links" id="forget-me-not" style="display:none">
+                <div class="remove-button" id="4">
+                            <span class="glyphicon glyphicon-remove"></span>
+                        </div>
+                <h1 class="title-flower">Your Flower is a </h1>
+                <div class="thumbnail test-card">
+                    <img src="assets/images/for.png">
+                    <div class="about-video">
+                        <div class="video-description">
+                            <div class="name">Forget-me-not</div>
+                        </div>
+                    </div>
+                    <p>
+                        Romantic, hopeful, friendly, imaginative.
+                    </p>
+                </div>
+            </div>
+            <div class="links" id="lavender" style="display:none">
+                <div class="remove-button" id="4">
+                    <span class="glyphicon glyphicon-remove"></span>
+                </div>
+                <h1 class="title-flower">Your Flower is a </h1>
+                <div class="thumbnail test-card">
+                    <img src="assets/images/lavender.png">
+                    <div class="about-video">
+                        <div class="video-description">
+                            <div class="name">Lavender</div>
+                        </div>
+                    </div>
+                    <p>
+                        Loyal, fiendly, responsible, kind.
+                    </p>
+                </div>
+            </div>
+            <div class="links" id="rose" style="display:none">
+                <div class="remove-button" id="4">
+                    <span class="glyphicon glyphicon-remove"></span>
+                </div>
+                <h1 class="title-flower">Your Flower is a </h1>
+                <div class="thumbnail test-card">
+                    <img src="assets/images/roses.jpg">
+                    <div class="about-video">
+                        <div class="video-description">
+                            <div class="name">Rose</div>
+                        </div>
+                    </div>
+                    <p>
+                        Friendly, passionate, confident, romantic.
+                    </p>
+                </div>
+            </div>
+            <div class="links" id="sunflower" style="display:none">
+                <div class="remove-button" id="4">
+                    <span class="glyphicon glyphicon-remove"></span>
+                </div>
+                <h1 class="title-flower">Your Flower is a </h1>
+                <div class="thumbnail test-card">
+                    <img src="assets/images/sunflower.png">
+                    <div class="about-video">
+                        <div class="video-description">
+                            <div class="name">Sunflower</div>
+                        </div>
+                    </div>
+                    <p>
+                        Warm, approachable, friendly, optimistic.
+                    </p>
+                </div>
+            </div>
+            <div class="links" id="daisy" style="display:none">
+                <div class="remove-button" id="4">
+                    <span class="glyphicon glyphicon-remove"></span>
+                </div>
+                <h1 class="title-flower">Your Flower is a </h1>
+                <div class="thumbnail test-card">
+                    <img src="assets/images/daisy.png">
+                    <div class="about-video">
+                        <div class="video-description">
+                            <div class="name">Daisy</div>
+                        </div>
+                    </div>
+                    <p>
+                        Adventurous, friendly, loyal, nature lover.
+                    </p>
+                </div>
+            </div>
+
+        <div class="explanation-message">
+            <p>
+                Created by Vera Didenko
+            </p>
+        </div>
+    </div>
+    <% include common/top_panel.ejs %>
+</div>
+<% include common/footer.ejs %>

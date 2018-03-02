@@ -1,0 +1,88 @@
+<% include common/header.ejs %>
+<body>
+<div>
+    <div class="my-garden">
+        <div class="description">
+            <h1 class="title-windowsill">What is a Windowsill Garden</h1>
+            <p class="about">
+                Have you ever dreamed of having a garden of your own, but didn't have the place for one, live in the city, or don't have
+                strength or health for gardening work? Well, you can have it on your windowsill! It doesn't have to be big, you can make
+                it as big as you want (or as big as your windowsill will allow it).
+            </p>
+        </div>
+        <div class="row garden-container">
+            <h1 class="title-windowsill">Types of Windowsill Gardens</h1>
+            <div class="row types-of-windowsills">
+                <div class="col-md-6 col-lg-4">
+                    <div class="thumbnail video-card">
+                        <a target="_self" href="/succulent.html">
+                            <img src="assets/images/succulentgarden.png">
+                            <div class="about-video">
+                                <div class="video-description">
+                                    <div class="name">Succulent Garden</div>
+                                </div>
+                            </div>
+                        </a>
+                        <p class="ex">
+                            Learn how to create an astounding succulent garden.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="thumbnail video-card">
+                        <a target="_self" href="/flower.html">
+                            <img src="assets/images/flowergarden.png">
+                            <div class="about-video">
+                                <div class="video-description">
+                                    <div class="name">Flower Garden</div>
+                                </div>
+                            </div>
+                        </a>
+                        <p class="ex">
+                            Decorate your windowsill with beautiful flowers.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="thumbnail video-card">
+                        <a target="_self" href="/herb.html">
+                            <img src="assets/images/herbgarden.png">
+                            <div class="about-video">
+                                <div class="video-description">
+                                    <div class="name">Herb Garden</div>
+                                </div>
+                            </div>
+                        </a>
+                        <p class="ex">
+                            Grow herbs on your windowsill all year round.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <h1 class="title-windowsill">Windowsill Garden Workshop</h1>
+                <p class="about">
+                    See how your windowsill garden may look with the help of our workshop. Press on the desired plant and then drag it to the desired place.
+                </p>
+            </div>
+            <div class="row workshop">
+                <div class="col-sm-2 field" id="field"></div>
+                <div class="theField" id="toChange">
+                    <span class="glyphicon glyphicon-refresh refresh-button" id="refresh"></span>
+                    <div class="col-sm-10 items" id="items"></div>
+                    <div class="message" id="greeting">
+                        <h1>Press and drag item to the desired place.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="explanation-message">
+            <p>
+                Created by Vera Didenko
+            </p>
+        </div>
+    </div>
+    <% include common/top_panel.ejs %>
+</div>
+<% include common/footer.ejs %>
